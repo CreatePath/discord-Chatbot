@@ -35,9 +35,9 @@ async def 물리실험(ctx,experimentName):
     msg = exp_url(experimentName)
     await ctx.send(msg)
 
+@bot.command()
+async def 백준뽑기(ctx):
+    # 사용자 입력을 어떻게 받지...?
+    pass
+
 bot.run(token)
-
-
-
-
-
